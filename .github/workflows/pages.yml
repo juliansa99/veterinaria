@@ -25,7 +25,7 @@ jobs:
           flutter-version: 3.47.7
       - run: flutter pub get
       - run: flutter test
-      - run: flutter build web --release --base-href /veterinaria/
+      - run: flutter build web --release --base-href /veterinaria-app/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/web
